@@ -45,10 +45,15 @@ GO Enrichment
 
 ## Results
 
-- Significant DEGs identified
-- PCA separates treated and untreated samples
-- Volcano plot visualizes differential expression
-- GO enrichment highlights biological processes affected by dexamethasone
+-  Total of 62,754 genes were quantified across the samples.
+-  Differential gene expression analysis was performed using DESeq2.
+-  Identified **1,041 significantly differentially expressed genes** using an adjusted p-value < 0.05 and |log2FoldChange| > 1.
+-  **491 genes were upregulated**.
+-  **550 genes were downregulated**.
+-  Principal Component Analysis (PCA) showed clear separation between the control and dexamethasone-treated samples.
+-  The volcano plot identified significantly differentially expressed genes based on both fold change and statistical significance.
+-  A heatmap of the most variable genes revealed clear clustering of samples according to their experimental groups.
+-  Gene Ontology (GO) enrichment analysis was performed on the significant differentially expressed genes using the Biological Process ontology.
 
 ## Reference Files
 
@@ -57,23 +62,3 @@ The reference genome (GRCh38) and GTF annotation files were used during alignmen
 ## Author
 
 Sheetal
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
